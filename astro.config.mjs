@@ -6,9 +6,16 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Godot Programming Game',
+			defaultLocale: 'root', // optional
+			locales: {
+				root: {
+					label: 'English',
+					lang: 'en', // lang is required for root locales
+				}
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/RiverDot/godot-programing-game-docs',
 			},
 			sidebar: [
 				{
