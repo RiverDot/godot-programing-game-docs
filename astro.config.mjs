@@ -4,7 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'http://riverdot.tech/godot-programing-game-docs/',
+	site: 'http://riverdot.tech/godot-programing-game-docs',
 	integrations: [
 		starlight({
 			title: 'Godot Programming Game',
